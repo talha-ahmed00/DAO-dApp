@@ -1,0 +1,115 @@
+.main {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  background-image: linear-gradient(to right, #000431,#02499b);
+}
+
+.footer {
+  display: flex;
+  padding: 2rem 0;
+  border-top: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+
+}
+
+.image {
+  width: 70%;
+  height: 50%;
+  margin-left: 20%;
+}
+
+.title {
+  font-size: 2rem;
+  margin: 2rem 0;
+  color: white;
+}
+
+.description {
+  line-height: 1;
+  margin: 2rem 0;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #00fbff;
+  border: none;
+  color: black;
+  font-size: 15px;
+  padding: 12px;
+  width: 150px;
+  cursor: pointer;
+  margin-bottom: 2%;
+  margin-right: 3%;
+}
+
+.button2 {
+  border-radius: 4px;
+  background-color: indigo;
+  border: none;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 2%;
+  margin-top: 1rem;
+}
+
+.proposalCard {
+  width: 500px;
+  margin-top: 0.25rem;
+  border: #00fbff 2px solid;
+  flex: 1;
+  flex-direction: column;
+  background-color: #f8f8f8;
+}
+
+.textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  margin: 8px 0;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+.flex {
+  flex: 1;
+  justify-content: space-between;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+
+}
+
+
+@media (max-width: 1000px) {
+  .main {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
